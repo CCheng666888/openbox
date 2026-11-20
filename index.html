@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light">
-<title>开箱必读 · 档案交接实验室</title>
-<link rel="icon" href="data:,">
-<link rel="stylesheet" href="assets/style.css">
-<script defer src="assets/policy.js"></script>
-<script defer src="assets/app.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/game.css">
+  <script defer src="assets/scenes.js"></script>
+  <script defer src="assets/history.js"></script>
+  <script defer src="assets/puzzles.js"></script>
+  <script defer src="assets/game.js"></script>
+  <title>开箱必读 · 中央文库守护记</title>
 </head>
 <body>
-<a class="skip" href="#main">跳至主要内容</a>
-<header class="top">
-  <div class="bar wrap">
-    <a class="brand" href="#home" aria-label="开箱必读，返回阅览室"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><b>开箱必读</b></a>
-    <nav aria-label="主导航"><a data-nav="home" href="#home">阅览室</a><a data-nav="desk" href="#desk/visitor">交接工作台</a><a data-nav="history" href="#history">史料索引</a></nav>
-    <span class="local"><i></i>离线研习</span>
-  </div>
-</header>
-<main id="main" class="wrap" tabindex="-1" aria-label="研习内容"></main>
-<noscript>请在浏览器中启用 JavaScript，以使用离线交接实验。</noscript>
-<footer class="wrap foot"><span>开箱必读 <i>/</i> 档案交接实验室</span><span>红码铸盾 · 知行守密</span></footer>
+  <a class="skip" href="#stage">跳至游戏内容</a>
+  <header class="top"><div class="wrap header">
+    <button class="brand" id="home"><span class="seal" aria-hidden="true">存</span><span>开箱必读</span></button>
+    <span class="subtitle">中央文库守护记</span>
+    <button class="sources-link" id="sources">打开史料案卷</button>
+  </div></header>
+  <main id="stage" class="wrap" tabindex="-1"></main>
+  <noscript>请启用 JavaScript 以游玩。</noscript>
+  <footer class="wrap footer"><span>红码铸盾 · 知行守密</span><span>史料改编的离线游戏</span></footer>
 </body>
 </html>
